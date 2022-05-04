@@ -1,0 +1,107 @@
+@media screen and (max-width: 480px) {
+    html { 
+      background: url('/assets/home/background-home-mobile.jpg') no-repeat center center fixed; 
+    }
+  }
+  @media screen and (min-width: 481px) and (max-width: 900px) {
+    html {
+      background: url('/assets/home/background-home-tablet.jpg') no-repeat center center fixed; 
+    }
+  }
+  @media screen and (min-width: 901px) {
+    html {
+      background: url('/assets/home/background-home-desktop.jpg') no-repeat center center fixed; 
+    }
+  }
+  html { 
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;  
+  }
+
+  body{
+      color: white;
+      margin: 0;
+  }
+
+  nav{
+      position: relative;
+  }
+
+  ul{  
+      margin: 30px 100px;
+      position: static;
+      text-align: right;
+  }
+
+  a{
+      color: wheat;
+      text-decoration: none;
+  }
+
+  li{
+    
+      display: inline;
+      font-family:  'Barlow Condensed',sans-serif;
+      font-size: 1rem;
+      letter-spacing: 1px;
+      list-style: none;
+      padding: 10px;
+      text-transform: uppercase;
+  }
+
+
+    .logo{
+        position: relative;
+        margin: 50px 50px;
+    }
+
+    .line{
+        color: white;
+        display: inline-block;
+        left: 10px;
+        opacity: 0.2;
+        position: relative;
+        width: 50%;
+        top: -20px;
+    }
+
+    .navbar{
+        background-color: rgba(208, 214, 249, 0.2);
+        backdrop-filter: blur(5px);
+        height: 80px;
+        position: absolute;
+        right: 0;
+        top: 30px;
+        width: 55%;
+    }
+
+    .content{
+        width: 50%;
+        margin: 100px auto;
+    }
+
+
+    .text{
+        line-height: 2;
+        text-align: justify;
+        width: 60%;
+    }
+
+    .explore{
+        align-items: center;
+        background-color: white;
+        border-radius: 100%;
+        color: black;
+        display: inline-flex;
+        float: right;
+        height: 20rem;
+        justify-content: center;
+        left: 50px;
+        top: -30px;
+        text-align: center;
+        width: 20rem;
+    }
+
+  
