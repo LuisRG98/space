@@ -1,16 +1,16 @@
 @media screen and (max-width: 480px) {
     html { 
-      background: url('./assets/home/background-home-mobile.jpg') no-repeat center center fixed; 
+      background: url('../assets/home/background-home-mobile.jpg') no-repeat center center fixed; 
     }
   }
   @media screen and (min-width: 481px) and (max-width: 900px) {
     html {
-      background: url('./assets/home/background-home-tablet.jpg') no-repeat center center fixed; 
+      background: url('../assets/home/background-home-tablet.jpg') no-repeat center center fixed; 
     }
   }
   @media screen and (min-width: 901px) {
     html {
-      background: url('./assets/home/background-home-desktop.jpg') no-repeat center center fixed; 
+      background: url('../assets/home/background-home-desktop.jpg') no-repeat center center fixed; 
     }
   }
   html { 
